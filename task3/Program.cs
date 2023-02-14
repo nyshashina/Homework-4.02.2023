@@ -25,6 +25,7 @@ void SumString(int[,] arg)
 {
     int sum1 = 0;
     int sum2 = 0;
+    int count = 0;
     for (int i = 0; i < arg.GetLength(1); i++)
     {
         sum1 = sum1 + arg[0,i];
